@@ -4,6 +4,7 @@ discord_token = os.getenv('com_camenduru_discord_token')
 web_uri = os.getenv('com_camenduru_web_uri')
 web_token = os.getenv('com_camenduru_web_token')
 
+import torch
 import base64
 from io import BytesIO
 from PIL import Image
