@@ -1,0 +1,276 @@
+{
+  "$schema": "http://json-schema.org/draft-04/hyper-schema#",
+  "type": "object",
+  "properties": {
+    "readme": {
+      "type": "string",
+      "title": "Tiled ControlNet Upscaler",
+      "author": "github/AUTOMATIC1111 github/Mikubill github/pkuliyi2015",
+      "tags": [
+        "Image to Image"
+      ],
+      "widget": "readme"
+    },
+    "img2img_input_image_url": {
+      "type": "string",
+      "description": "Img2Img Input Image URL",
+      "widget": "textarea"
+    },
+    "img2img_prompt": {
+      "type": "string",
+      "description": "Img2Img Prompt",
+      "widget": "textarea"
+    },
+    "img2img_negative_prompt": {
+      "type": "string",
+      "description": "Img2Img Negative Prompt",
+      "widget": "textarea"
+    },
+    "img2img_steps": {
+      "type": "number",
+      "description": "Img2Img Steps"
+    },
+    "img2img_cfg_scale": {
+      "type": "number",
+      "description": "Img2Img CFG Scale"
+    },
+    "img2img_seed": {
+      "type": "number",
+      "description": "Img2Img Seed"
+    },
+    "img2img_sampler_name": {
+      "type": "string",
+      "widget": "select",
+      "description": "Img2Img Sampler Name",
+      "oneOf": [
+        {
+            "description": "DPM++ 2M Karras",
+            "enum": [
+              "DPM++ 2M Karras"
+            ]
+        },
+        {
+            "description": "DPM++ SDE Karras",
+            "enum": [
+              "DPM++ SDE Karras"
+            ]
+        },
+        {
+            "description": "DPM++ 2M SDE Exponential",
+            "enum": [
+              "DPM++ 2M SDE Exponential"
+            ]
+        },
+        {
+            "description": "DPM++ 2M SDE Karras",
+            "enum": [
+              "DPM++ 2M SDE Karras"
+            ]
+        },
+        {
+            "description": "Euler a",
+            "enum": [
+              "Euler a"
+            ]
+        },
+        {
+            "description": "Euler",
+            "enum": [
+              "Euler"
+            ]
+        },
+        {
+            "description": "LMS",
+            "enum": [
+              "LMS"
+            ]
+        },
+        {
+            "description": "Heun",
+            "enum": [
+              "Heun"
+            ]
+        },
+        {
+            "description": "DPM2",
+            "enum": [
+              "DPM2"
+            ]
+        },
+        {
+            "description": "DPM2 a",
+            "enum": [
+              "DPM2 a"
+            ]
+        },
+        {
+            "description": "DPM++ 2S a",
+            "enum": [
+              "DPM++ 2S a"
+            ]
+        },
+        {
+            "description": "DPM++ 2M",
+            "enum": [
+              "DPM++ 2M"
+            ]
+        },
+        {
+            "description": "DPM++ SDE",
+            "enum": [
+              "DPM++ SDE"
+            ]
+        },
+        {
+            "description": "DPM++ 2M SDE",
+            "enum": [
+              "DPM++ 2M SDE"
+            ]
+        },
+        {
+            "description": "DPM++ 2M SDE Heun",
+            "enum": [
+              "DPM++ 2M SDE Heun"
+            ]
+        },
+        {
+            "description": "DPM++ 2M SDE Heun Karras",
+            "enum": [
+              "DPM++ 2M SDE Heun Karras"
+            ]
+        },
+        {
+            "description": "DPM++ 2M SDE Heun Exponential",
+            "enum": [
+              "DPM++ 2M SDE Heun Exponential"
+            ]
+        },
+        {
+            "description": "DPM++ 3M SDE",
+            "enum": [
+              "DPM++ 3M SDE"
+            ]
+        },
+        {
+            "description": "DPM++ 3M SDE Karras",
+            "enum": [
+              "DPM++ 3M SDE Karras"
+            ]
+        },
+        {
+            "description": "DPM++ 3M SDE Exponential",
+            "enum": [
+              "DPM++ 3M SDE Exponential"
+            ]
+        },
+        {
+            "description": "DPM fast",
+            "enum": [
+              "DPM fast"
+            ]
+        },
+        {
+            "description": "DPM adaptive",
+            "enum": [
+              "DPM adaptive"
+            ]
+        },
+        {
+            "description": "LMS Karras",
+            "enum": [
+              "LMS Karras"
+            ]
+        },
+        {
+            "description": "DPM2 Karras",
+            "enum": [
+              "DPM2 Karras"
+            ]
+        },
+        {
+            "description": "DPM2 a Karras",
+            "enum": [
+              "DPM2 a Karras"
+            ]
+        },
+        {
+            "description": "DPM++ 2S a Karras",
+            "enum": [
+              "DPM++ 2S a Karras"
+            ]
+        },
+        {
+            "description": "Restart",
+            "enum": [
+              "Restart"
+            ]
+        },
+        {
+            "description": "DDIM",
+            "enum": [
+              "DDIM"
+            ]
+        },
+        {
+            "description": "PLMS",
+            "enum": [
+              "PLMS"
+            ]
+        },
+        {
+            "description": "UniPC",
+            "enum": [
+              "UniPC"
+            ]
+        }
+      ],
+      "default": "DPM++ 3M SDE Karras"
+    },
+    "img2img_denoising_strength": {
+      "type": "number",
+      "description": "Img2Img Denoising Strength"
+    },
+    "img2img_scale_by": {
+      "type": "number",
+      "description": "Img2Img Scale by"
+    },
+    "tiled_diffusion_tile_width": {
+      "type": "number",
+      "description": "Tiled Diffusion Tile Width"
+    },
+    "tiled_diffusion_tile_height": {
+      "type": "number",
+      "description": "Tiled Diffusion Tile Height"
+    },
+    "tiled_diffusion_overlap": {
+      "type": "number",
+      "description": "Tiled Diffusion Overlap"
+    },
+    "tiled_diffusion_tile_batch_size": {
+      "type": "number",
+      "description": "Tiled Diffusion Tile Batch Size"
+    },
+    "tiled_diffusion_scale_factor": {
+      "type": "number",
+      "description": "Tiled Diffusion_scale_factor"
+    },
+    "tiled_vae_encoder_tile_size": {
+      "type": "number",
+      "description": "Tiled VAE Encoder Tile Size"
+    },
+    "tiled_vae_decoder_tile_size": {
+      "type": "number",
+      "description": "Tiled VAE Decoder Tile Size"
+    },
+    "controlnet_tile_weight": {
+      "type": "number",
+      "description": "ControlNet Tile Weight"
+    }
+  },
+  "buttons": [
+    {
+      "id": "enter",
+      "label": "🥪 Enter"
+    }
+  ]
+}
