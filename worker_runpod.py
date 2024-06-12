@@ -39,7 +39,7 @@ def download_file(url, save_dir='/content'):
 def generate(input):
     values = input["input"]
 
-    img2img_input_image_url = values['img2img_input_image_url']
+    img2img_input_image_url = values['input_image_check']
     img2img_input_image_path = download_file(img2img_input_image_url)
     img2img_prompt = values['img2img_prompt'] 
     img2img_negative_prompt = values['img2img_negative_prompt']
