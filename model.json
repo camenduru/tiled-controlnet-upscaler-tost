@@ -1,5 +1,5 @@
 {
-    "img2img_input_image_url": "https://replicate.delivery/pbxt/KiDB5iqtTcxiTI17WASotG1Ei0TNJCztdU6J02pnMYAd8B1X/13_before-4.png",
+    "img2img_input_image_url": "https://files.catbox.moe/gwq1vm.png",
     "img2img_prompt": "masterpiece, best quality, highres, <lora:more_details:0.5> <lora:SDXLrender_v2.0:1>",
     "img2img_negative_prompt": "(worst quality, low quality, normal quality:2) JuggernautNegative-neg",
     "img2img_steps": 18,
@@ -12,7 +12,7 @@
     "tiled_diffusion_tile_height": 144,
     "tiled_diffusion_overlap": 4,
     "tiled_diffusion_tile_batch_size": 8,
-    "tiled_diffusion_scale_factor": 1.2,
+    "tiled_diffusion_scale_factor": 2,
     "tiled_vae_encoder_tile_size": 2048,
     "tiled_vae_decoder_tile_size": 128,
     "controlnet_tile_weight": 0.6
