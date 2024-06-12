@@ -70,13 +70,13 @@ def generate(input):
         "init_images": [base64_image],
         "prompt": img2img_prompt,
         "negative_prompt": img2img_negative_prompt,
-        "steps": steps,
-        "cfg_scale": cfg_scale,
-        "seed": seed,
+        "steps": img2img_steps,
+        "cfg_scale": img2img_cfg_scale,
+        "seed": img2img_seed,
         "do_not_save_samples": True,
-        "sampler_name": sampler_name,
-        "denoising_strength": denoising_strength,
-        "scale_by": scale_by,
+        "sampler_name": img2img_sampler_name,
+        "denoising_strength": img2img_denoising_strength,
+        "scale_by": img2img_scale_by,
         "alwayson_scripts": {
             "Tiled Diffusion": {
                 "args": [
