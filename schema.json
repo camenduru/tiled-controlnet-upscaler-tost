@@ -5,7 +5,7 @@
     "readme": {
       "type": "string",
       "title": "Tiled ControlNet Upscaler",
-      "author": "github/AUTOMATIC1111 github/Mikubill github/pkuliyi2015",
+      "author": "github | @AUTOMATIC1111 @Mikubill @pkuliyi2015 @philz1337x",
       "tags": [
         "Image to Image"
       ],
