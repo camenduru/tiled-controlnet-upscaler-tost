@@ -5,7 +5,7 @@
     "readme": {
       "type": "string",
       "title": "Tiled ControlNet Upscaler",
-      "author": "github | @AUTOMATIC1111 @Mikubill @pkuliyi2015 @philz1337x",
+      "author": "GitHub [ @AUTOMATIC1111 | @Mikubill | @pkuliyi2015 | @philz1337x ]",
       "tags": [
         "Image to Image"
       ],
@@ -44,27 +44,39 @@
       "description": "Img2Img Sampler Name",
       "oneOf": [
         {
-            "description": "DPM++ 2M Karras",
+            "description": "DPM++ 2M",
             "enum": [
-              "DPM++ 2M Karras"
+              "DPM++ 2M"
             ]
         },
         {
-            "description": "DPM++ SDE Karras",
+            "description": "DPM++ SDE",
             "enum": [
-              "DPM++ SDE Karras"
+              "DPM++ SDE"
             ]
         },
         {
-            "description": "DPM++ 2M SDE Exponential",
+            "description": "DPM++ 2M SDE",
             "enum": [
-              "DPM++ 2M SDE Exponential"
+              "DPM++ 2M SDE"
             ]
         },
         {
-            "description": "DPM++ 2M SDE Karras",
+            "description": "DPM++ 2M SDE Heun",
             "enum": [
-              "DPM++ 2M SDE Karras"
+              "DPM++ 2M SDE Heun"
+            ]
+        },
+        {
+            "description": "DPM++ 2S a",
+            "enum": [
+              "DPM++ 2S a"
+            ]
+        },
+        {
+            "description": "DPM++ 3M SDE",
+            "enum": [
+              "DPM++ 3M SDE"
             ]
         },
         {
@@ -104,66 +116,6 @@
             ]
         },
         {
-            "description": "DPM++ 2S a",
-            "enum": [
-              "DPM++ 2S a"
-            ]
-        },
-        {
-            "description": "DPM++ 2M",
-            "enum": [
-              "DPM++ 2M"
-            ]
-        },
-        {
-            "description": "DPM++ SDE",
-            "enum": [
-              "DPM++ SDE"
-            ]
-        },
-        {
-            "description": "DPM++ 2M SDE",
-            "enum": [
-              "DPM++ 2M SDE"
-            ]
-        },
-        {
-            "description": "DPM++ 2M SDE Heun",
-            "enum": [
-              "DPM++ 2M SDE Heun"
-            ]
-        },
-        {
-            "description": "DPM++ 2M SDE Heun Karras",
-            "enum": [
-              "DPM++ 2M SDE Heun Karras"
-            ]
-        },
-        {
-            "description": "DPM++ 2M SDE Heun Exponential",
-            "enum": [
-              "DPM++ 2M SDE Heun Exponential"
-            ]
-        },
-        {
-            "description": "DPM++ 3M SDE",
-            "enum": [
-              "DPM++ 3M SDE"
-            ]
-        },
-        {
-            "description": "DPM++ 3M SDE Karras",
-            "enum": [
-              "DPM++ 3M SDE Karras"
-            ]
-        },
-        {
-            "description": "DPM++ 3M SDE Exponential",
-            "enum": [
-              "DPM++ 3M SDE Exponential"
-            ]
-        },
-        {
             "description": "DPM fast",
             "enum": [
               "DPM fast"
@@ -174,57 +126,9 @@
             "enum": [
               "DPM adaptive"
             ]
-        },
-        {
-            "description": "LMS Karras",
-            "enum": [
-              "LMS Karras"
-            ]
-        },
-        {
-            "description": "DPM2 Karras",
-            "enum": [
-              "DPM2 Karras"
-            ]
-        },
-        {
-            "description": "DPM2 a Karras",
-            "enum": [
-              "DPM2 a Karras"
-            ]
-        },
-        {
-            "description": "DPM++ 2S a Karras",
-            "enum": [
-              "DPM++ 2S a Karras"
-            ]
-        },
-        {
-            "description": "Restart",
-            "enum": [
-              "Restart"
-            ]
-        },
-        {
-            "description": "DDIM",
-            "enum": [
-              "DDIM"
-            ]
-        },
-        {
-            "description": "PLMS",
-            "enum": [
-              "PLMS"
-            ]
-        },
-        {
-            "description": "UniPC",
-            "enum": [
-              "UniPC"
-            ]
         }
       ],
-      "default": "DPM++ 3M SDE Karras"
+      "default": "DPM++ 3M SDE"
     },
     "img2img_denoising_strength": {
       "type": "number",
