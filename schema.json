@@ -6,6 +6,7 @@
       "type": "string",
       "title": "Tiled ControlNet Upscaler",
       "author": "GitHub [ @AUTOMATIC1111 | @Mikubill | @pkuliyi2015 | @philz1337x ]",
+      "api": "https://github.com/camenduru/tost-api-examples/blob/main/v1/tiled-controlnet-upscaler.ipynb",
       "tags": [
         "Image to Image"
       ],
