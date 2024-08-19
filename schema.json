@@ -44,88 +44,88 @@
       "description": "Img2Img Sampler Name",
       "oneOf": [
         {
-            "description": "DPM++ 2M",
-            "enum": [
-              "DPM++ 2M"
-            ]
+          "description": "DPM++ 2M",
+          "enum": [
+            "DPM++ 2M"
+          ]
         },
         {
-            "description": "DPM++ SDE",
-            "enum": [
-              "DPM++ SDE"
-            ]
+          "description": "DPM++ SDE",
+          "enum": [
+            "DPM++ SDE"
+          ]
         },
         {
-            "description": "DPM++ 2M SDE",
-            "enum": [
-              "DPM++ 2M SDE"
-            ]
+          "description": "DPM++ 2M SDE",
+          "enum": [
+            "DPM++ 2M SDE"
+          ]
         },
         {
-            "description": "DPM++ 2M SDE Heun",
-            "enum": [
-              "DPM++ 2M SDE Heun"
-            ]
+          "description": "DPM++ 2M SDE Heun",
+          "enum": [
+            "DPM++ 2M SDE Heun"
+          ]
         },
         {
-            "description": "DPM++ 2S a",
-            "enum": [
-              "DPM++ 2S a"
-            ]
+          "description": "DPM++ 2S a",
+          "enum": [
+            "DPM++ 2S a"
+          ]
         },
         {
-            "description": "DPM++ 3M SDE",
-            "enum": [
-              "DPM++ 3M SDE"
-            ]
+          "description": "DPM++ 3M SDE",
+          "enum": [
+            "DPM++ 3M SDE"
+          ]
         },
         {
-            "description": "Euler a",
-            "enum": [
-              "Euler a"
-            ]
+          "description": "Euler a",
+          "enum": [
+            "Euler a"
+          ]
         },
         {
-            "description": "Euler",
-            "enum": [
-              "Euler"
-            ]
+          "description": "Euler",
+          "enum": [
+            "Euler"
+          ]
         },
         {
-            "description": "LMS",
-            "enum": [
-              "LMS"
-            ]
+          "description": "LMS",
+          "enum": [
+            "LMS"
+          ]
         },
         {
-            "description": "Heun",
-            "enum": [
-              "Heun"
-            ]
+          "description": "Heun",
+          "enum": [
+            "Heun"
+          ]
         },
         {
-            "description": "DPM2",
-            "enum": [
-              "DPM2"
-            ]
+          "description": "DPM2",
+          "enum": [
+            "DPM2"
+          ]
         },
         {
-            "description": "DPM2 a",
-            "enum": [
-              "DPM2 a"
-            ]
+          "description": "DPM2 a",
+          "enum": [
+            "DPM2 a"
+          ]
         },
         {
-            "description": "DPM fast",
-            "enum": [
-              "DPM fast"
-            ]
+          "description": "DPM fast",
+          "enum": [
+            "DPM fast"
+          ]
         },
         {
-            "description": "DPM adaptive",
-            "enum": [
-              "DPM adaptive"
-            ]
+          "description": "DPM adaptive",
+          "enum": [
+            "DPM adaptive"
+          ]
         }
       ],
       "default": "DPM++ 3M SDE"
