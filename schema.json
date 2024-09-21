@@ -170,6 +170,14 @@
     "controlnet_tile_weight": {
       "type": "number",
       "description": "ControlNet Tile Weight"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=input#.png",
+      "image2": "https://i.ibb.co/DtT5tq8/gwq1vm.png",
+      "image3": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/onyea5.png",
+      "widget": "example"
     }
   },
   "buttons": [
