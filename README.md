@@ -11,4 +11,4 @@ https://github.com/Mikubill/sd-webui-controlnet <br />
 https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111 <br />
 
 ### 🏢 Sponsor
-https://runpod.io
+[https://runpod.io](https://runpod.io?ref=iqi9iy8y)
